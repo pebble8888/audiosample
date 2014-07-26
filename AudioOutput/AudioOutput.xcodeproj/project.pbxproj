@@ -462,6 +462,7 @@
 				A27DBEBD198344CA0087C4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A27DBEBE198344CA0087C4A7 /* Build configuration list for PBXNativeTarget "AudioOutputTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				A27DBEC0198344CA0087C4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
