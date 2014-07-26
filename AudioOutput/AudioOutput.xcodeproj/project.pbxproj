@@ -22,6 +22,7 @@
 		A27DBEB6198344CA0087C4A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A27DBEB4198344CA0087C4A7 /* InfoPlist.strings */; };
 		A27DBEB8198344CA0087C4A7 /* AudioOutputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A27DBEB7198344CA0087C4A7 /* AudioOutputTests.m */; };
 		A27DBEC3198344EA0087C4A7 /* AudioObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A27DBEC2198344EA0087C4A7 /* AudioObject.m */; };
+		A27DBEC7198353480087C4A7 /* AudioDebugger.m in Sources */ = {isa = PBXBuildFile; fileRef = A27DBEC6198353480087C4A7 /* AudioDebugger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		A27DBEB7198344CA0087C4A7 /* AudioOutputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioOutputTests.m; sourceTree = "<group>"; };
 		A27DBEC1198344EA0087C4A7 /* AudioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioObject.h; sourceTree = "<group>"; };
 		A27DBEC2198344EA0087C4A7 /* AudioObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioObject.m; sourceTree = "<group>"; };
+		A27DBEC5198353480087C4A7 /* AudioDebugger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDebugger.h; sourceTree = "<group>"; };
+		A27DBEC6198353480087C4A7 /* AudioDebugger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioDebugger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				A27DBE93198344CA0087C4A7 /* Supporting Files */,
 				A27DBEC1198344EA0087C4A7 /* AudioObject.h */,
 				A27DBEC2198344EA0087C4A7 /* AudioObject.m */,
+				A27DBEC5198353480087C4A7 /* AudioDebugger.h */,
+				A27DBEC6198353480087C4A7 /* AudioDebugger.m */,
 			);
 			path = AudioOutput;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			files = (
 				A27DBEA3198344CA0087C4A7 /* ViewController.m in Sources */,
 				A27DBEC3198344EA0087C4A7 /* AudioObject.m in Sources */,
+				A27DBEC7198353480087C4A7 /* AudioDebugger.m in Sources */,
 				A27DBE9D198344CA0087C4A7 /* AppDelegate.m in Sources */,
 				A27DBE99198344CA0087C4A7 /* main.m in Sources */,
 			);
