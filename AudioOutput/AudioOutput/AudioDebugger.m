@@ -94,7 +94,7 @@
     assert( status == noErr );
 }
 
-- (void)addMonoShortData:(int16_t*)buf Length:(int64_t)aFrameLength
+- (void)addMonoShortData:(int16_t*)buf FrameLength:(int64_t)aFrameLength
 {
     assert( aFrameLength <= kAddLimitFrame );
     assert( _channels == 1 );
@@ -110,7 +110,7 @@
     assert( status == noErr);
 }
 
-- (void)addStereoShortData:(int16_t*)buf Length:(int64_t)aFrameLength
+- (void)addStereoShortData:(int16_t*)buf FrameLength:(int64_t)aFrameLength
 {
     assert( aFrameLength <= kAddLimitFrame );
     assert( _channels == 2 );
